@@ -5,7 +5,6 @@ def alphabetize(arr)
     a.each_char do |char|
       positions << esperanto.index(char)
     end
-  end
     return alphabetized
   end
 end
