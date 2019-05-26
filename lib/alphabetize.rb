@@ -1,6 +1,5 @@
 def alphabetize(arr)
-  def alphabetize(arr)
-  # code here	  arr.sort_by! do |a|
+  arr.sort_by! do |a|
     positions = []
     a.each_char do |char|
       positions << ESPERANTO_ALPHABET.index(char)
@@ -8,4 +7,4 @@ def alphabetize(arr)
     positions
   end
   arr
-end 	end 
+end 	end
