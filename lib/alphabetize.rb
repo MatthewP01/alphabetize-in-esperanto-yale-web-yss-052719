@@ -1,5 +1,5 @@
 def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
-  arr.sort_by do |alphabetize
+  arr.sort_by do |alphabet|
 end
