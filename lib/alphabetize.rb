@@ -5,7 +5,7 @@ def alphabetize(arr)
     a.each_char do |char|
       positions << ESPERANTO_ALPHABET.index(char)
     end
-    positions
+    return alphabetized
   end
   arr
 end 	end
