@@ -7,5 +7,4 @@ def alphabetize(arr)
     end
     return alphabetized
   end
-  arr
-end 	
+end
